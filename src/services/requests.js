@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://tfc-tamires-bc.herokuapp.com',
+  baseURL: ' https://cors-everywhere.herokuapp.com/http://tfc-tamires-bc.herokuapp.com',
 });
 
 export const setToken = (token) => {
